@@ -108,7 +108,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: #202020 center / cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .sidebar-box {

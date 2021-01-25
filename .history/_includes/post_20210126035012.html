@@ -34,14 +34,8 @@
       
 
 
-{% if post.header-img %}
-
-<div class="head-image">
-  <img src="{{ site.url }}/{% if post.header-img %}assets/{{ post.header-img }}{% endif %}"/>
-</div>
-
+{% if post.header-img %}<div class="head-image"><img src="{{ site.url }}/{% if post.header-img %}assets/{{ post.header-img }}{% endif %}"/></div>
 <br/>{% elsif tag.header-img %}
-
 <div class="head-image">
   <img src="{{ site.url }}/assets/{{ tag.header-img }}"/>
 </div>
