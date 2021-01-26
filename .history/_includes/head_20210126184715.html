@@ -7,7 +7,12 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="article" />
-
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="{{ site.url }}/feed.xml"
+  title="{{ site.title }} Feed"
+/>
 
 {% for tag_slug in page.tags %} {% unless tag.header-img %} {% assign tag =
 site.featured_tags | where: "slug", tag_slug | first %} {% endunless %} {%
@@ -88,12 +93,6 @@ site.description | markdownify %} {% endif %}
   href="{{ 'apple-touch-icon.png' | absolute_url }}"
 />
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?" />
-<link
-  rel="alternate"
-  type="application/rss+xml"
-  href="{{ site.url }}/feed.xml"
-  title="{{ site.title }} Feed"
-/>
 <!-- Place favicon.ico in the root directory -->
 
 <!-- =============== -->

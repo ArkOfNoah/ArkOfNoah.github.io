@@ -47,7 +47,7 @@ author1:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          ArkOfNoah
+    github:          ark-of-Noah
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -59,7 +59,7 @@ author1:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           nhs1325@gmail.com
-    rss:             https://arkofnoah.github.io/feed.xml
+    rss:             https://khw11044.github.io/feed.xml
 
 # Another author
 author2:
