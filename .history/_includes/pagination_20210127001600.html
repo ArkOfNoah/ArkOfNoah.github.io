@@ -3,14 +3,14 @@
   <ul>
     <li class="pagination-item older" >
       {% if paginator.next_page %}
-        <a rel="next" href="{{ paginator.next_page_path | relative_url }}">이전 포스팅</a>
+        <a rel="next" href="{{ paginator.next_page_path | relative_url }}">Older</a>
       {% else %}
         <span>이전 포스팅</span>
       {% endif %}
     </li>
     <li class="pagination-item newer" >
       {% if paginator.previous_page %}
-        <a rel="prev" href="{{ paginator.previous_page_path | relative_url }}">다음 포스팅</a>
+        <a rel="prev" href="{{ paginator.previous_page_path | relative_url }}">Newer</a>
       {% else %}
         <span>다음 포스팅</span>
       {% endif %}
